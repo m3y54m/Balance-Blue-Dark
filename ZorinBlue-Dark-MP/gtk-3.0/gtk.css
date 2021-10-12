@@ -1390,6 +1390,8 @@ scrolledwindow junction:backdrop { border-image-source: linear-gradient(to botto
 
 separator { background: #424242; min-width: 1px; min-height: 1px; }
 
+separator:backdrop { background: #333333; }
+
 /********* Lists * */
 list { color: #ffffff; background-color: #292929; border-color: transparent; border-radius: 10px; }
 
@@ -1513,6 +1515,8 @@ filechooserbutton:drop(active) { box-shadow: none; border-color: transparent; }
 .sidebar { border-style: none; background-color: transparent; border-radius: 0 0 10px 10px; }
 
 stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:not(separator):dir(ltr), .sidebar:not(separator).left { border-right: 1px solid #424242; border-left-style: none; }
+
+stacksidebar.sidebar:dir(ltr) list:backdrop, stacksidebar.sidebar.left list:backdrop, stacksidebar.sidebar.left:dir(rtl) list:backdrop, .sidebar:not(separator):dir(ltr):backdrop, .sidebar:not(separator).left:backdrop { border-right: 1px solid #333333; }
 
 stacksidebar.sidebar:dir(rtl) list, stacksidebar.sidebar.right list, .sidebar:not(separator):dir(rtl), .sidebar:not(separator).right { border-left: 1px solid #424242; border-right-style: none; }
 
