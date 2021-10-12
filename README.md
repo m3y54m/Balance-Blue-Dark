@@ -1,6 +1,6 @@
-# ZorinBlue-Dark Customized
+# Balance-Blue-Dark GNOME/GTK3 Theme
 
-Customized version of ZorinBlue-Dark theme according to my own preferences.
+Balance-Blue-Dark theme is a custom version of ZorinBlue-Dark theme based on my own preferences.
 
 Features:
 
