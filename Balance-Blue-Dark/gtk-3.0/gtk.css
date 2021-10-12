@@ -1773,7 +1773,9 @@ button.titlebutton:backdrop { -gtk-icon-shadow: none; }
 
 .selection-mode headerbar button.titlebutton:backdrop, .selection-mode .titlebar button.titlebutton:backdrop, headerbar.selection-mode button.titlebutton:backdrop, .titlebar.selection-mode button.titlebutton:backdrop { -gtk-icon-shadow: none; }
 
-.view:selected:focus, .view:selected, .view text:selected:focus, textview text:selected:focus, .view text:selected, textview text:selected, iconview:selected:focus, iconview:selected, flowbox flowboxchild:selected, modelbutton.flat:selected, .menuitem.button.flat:selected, treeview.view:selected:focus, treeview.view:selected, row:selected, calendar:selected { background-color: #00bfff; }
+.view text:selected:focus, textview text:selected:focus, .view text:selected, textview text:selected, iconview:selected:focus, iconview:selected, flowbox flowboxchild:selected, modelbutton.flat:selected, row:selected, calendar:selected { background-color: #00bfff; }
+
+.view:selected:focus, .view:selected, treeview.view:selected:focus, treeview.view:selected { background-color: #ffffff; }
 
 .selection-mode button.titlebutton, .view:selected:focus, .view:selected, .view text:selected:focus, textview text:selected:focus, .view text:selected, textview text:selected, iconview:selected:focus, iconview:selected, flowbox flowboxchild:selected, modelbutton.flat:selected, .menuitem.button.flat:selected, treeview.view:selected:focus, treeview.view:selected, row:selected, calendar:selected { color: #292929; }
 
