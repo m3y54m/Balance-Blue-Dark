@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=ZorinBlue-Dark-MP
-Comment=The dark desktop theme with blue highlights for Zorin OS - Customized by Meysam Parvizi
+Name=Balance-Blue-Dark
+Comment=Balanced dark desktop theme with blue icons for Zorin OS
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=ZorinBlue-Dark
-MetacityTheme=ZorinBlue-Dark
-IconTheme=ZorinBlue-Dark
+GtkTheme=Balance-Blue-Dark
+MetacityTheme=Balance-Blue-Dark
+IconTheme=Balance-Blue-Dark
 CursorTheme=Adwaita
 ButtonLayout=:minimize,maximize,close
