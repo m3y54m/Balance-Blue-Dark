@@ -11,17 +11,18 @@ Features:
 
 ## Installation
 
-### Clone this git repository:
+Clone this git repository:
 
 ```console
 git clone https://github.com/m3y54m/Balance-Blue-Dark.git
 cd Balance-Blue-Dark
 ```
 
-### Copy Balance-Blue-Dark to `.themes` directory:
+Copy Balance-Blue-Dark to `.themes` directory:
 
 ```console
 mkdir -p ~/.themes
 cp -r Balance-Blue-Dark ~/.themes
 ```
-### Activate `Balance-Blue-Dark` theme using `Zorin Appearance` or `GNOME Tweaks`
+
+Now you can activate `Balance-Blue-Dark` theme using `Zorin Appearance` or `GNOME Tweaks`.
