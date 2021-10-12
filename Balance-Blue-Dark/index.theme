@@ -7,6 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Balance-Blue-Dark
 MetacityTheme=Balance-Blue-Dark
-IconTheme=Balance-Blue-Dark
+IconTheme=ZorinBlue-Dark
 CursorTheme=Adwaita
 ButtonLayout=:minimize,maximize,close
