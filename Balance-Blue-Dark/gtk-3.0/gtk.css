@@ -33,7 +33,7 @@
 
 .view:backdrop:disabled, iconview:backdrop:disabled, .view text:backdrop:disabled, iconview text:backdrop:disabled, textview text:backdrop:disabled { color: #414141; background-color: #232323; }
 
-.view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected, .view text:selected:focus, iconview text:selected:focus, textview text:selected:focus, .view text:selected, iconview text:selected, textview text:selected { border-radius: 8px; }
+.view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected, .view text:selected:focus, iconview text:selected:focus, textview text:selected:focus, .view text:selected, iconview text:selected, textview text:selected { border-radius: 3px; }
 
 .view.sourceview, iconview.sourceview, .view.sourceview > *, iconview.sourceview > *, textview.sourceview, textview.sourceview > * { border-radius: 0; }
 
