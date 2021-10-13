@@ -52,7 +52,7 @@ stage { font-size: 10pt; color: #ffffff; }
 /* Entries */
 StEntry { border-radius: 8px; padding: 8px; margin: 1px; border-width: 1px; color: #ffffff; border-color: #40454e; color: #ffffff; background-color: #191919; box-shadow: none; selection-background-color: #525252; selected-color: white; }
 
-StEntry:focus { color: #ffffff; background-color: #191919; box-shadow: none; border-color: #ffffff; box-shadow: inset 0 0 0 1px #ffffff; }
+StEntry:focus { color: #123354; background-color: white; box-shadow: none; border-color: #15a6f0; box-shadow: inset 0 0 0 1px #15a6f0; }
 
 StEntry:insensitive { color: #909090; background-color: transparent; border-color: transparent; box-shadow: none; }
 
@@ -80,11 +80,11 @@ StEntry StLabel.hint-text { margin-left: 2px; color: rgba(255, 255, 255, 0.5); }
 .toggle-switch:checked { background-image: url("assets/toggle-on-dark.svg"); }
 
 /* Slider */
-.slider { height: 15px; -barlevel-height: 3px; -barlevel-background-color: rgba(255, 255, 255, 0.075); -barlevel-border-width: 0; -barlevel-border-color: transparent; -barlevel-active-background-color: #ffffff; -barlevel-active-border-color: transparent; -barlevel-overdrive-color: #fb7c7c; -barlevel-overdrive-border-color: transparent; -barlevel-overdrive-separator-width: 2px; -slider-handle-radius: 7.5px; -slider-handle-border-width: 2px; -slider-handle-border-color: #ffffff; color: #333841; }
+.slider { height: 15px; -barlevel-height: 3px; -barlevel-background-color: rgba(18, 51, 84, 0.075); -barlevel-border-width: 0; -barlevel-border-color: transparent; -barlevel-active-background-color: #15a6f0; -barlevel-active-border-color: transparent; -barlevel-overdrive-color: #fa4444; -barlevel-overdrive-border-color: transparent; -barlevel-overdrive-separator-width: 2px; -slider-handle-radius: 7.5px; -slider-handle-border-width: 2px; -slider-handle-border-color: #15a6f0; color: #f5f7fa; }
 
-.slider:hover { color: #191919; }
+.slider:hover { color: white; }
 
-.slider:active { color: #ffffff; }
+.slider:active { color: #15a6f0; }
 
 /* Scrollbars */
 StScrollView.vfade { -st-vfade-offset: 48px; }
@@ -122,7 +122,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .popup-menu-item:checked.selected { background-color: #15a6f0; background-gradient-direction: horizontal; background-gradient-start: #029be9; background-gradient-end: #22c5fd; color: white; }
 
-.popup-menu-item:checked:active { background-color: #ffffff; background-gradient-direction: none; color: #191919; }
+.popup-menu-item:checked:active { background-color: #15a6f0; background-gradient-direction: none; color: white; }
 
 .popup-menu-item.selected { background-color: rgba(255, 255, 255, 0.075); background-gradient-direction: none; color: #ffffff; }
 
@@ -386,7 +386,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .candidate-box { padding: 0.3em 0.5em 0.3em 0.5em; border-radius: 8px; }
 
-.candidate-box:selected, .candidate-box:hover { background-color: #ffffff; color: #191919; }
+.candidate-box:selected, .candidate-box:hover { background-color: #15a6f0; color: white; }
 
 .candidate-page-button-box { height: 2em; }
 
@@ -409,7 +409,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .notification-banner .notification-actions { spacing: 0; }
 
-.summary-source-counter { font-size: 8pt; font-weight: bold; height: 1.6em; width: 1.6em; -shell-counter-overlap-x: 3px; -shell-counter-overlap-y: 3px; background-color: #ffffff; color: #191919; border: none; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); border-radius: 0.9em; }
+.summary-source-counter { font-size: 8pt; font-weight: bold; height: 1.6em; width: 1.6em; -shell-counter-overlap-x: 3px; -shell-counter-overlap-y: 3px; background-color: #15a6f0; color: white; border: none; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); border-radius: 0.9em; }
 
 .chat-body { spacing: 5px; }
 
@@ -521,7 +521,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .audio-selection-device:hover, .audio-selection-device:focus { background-color: #3d424b; }
 
-.audio-selection-device:active { background-color: #ffffff; color: #191919; }
+.audio-selection-device:active { background-color: #15a6f0; color: white; }
 
 .audio-selection-device-box { padding: 20px; spacing: 20px; }
 
@@ -702,7 +702,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .search-entry:hover { background-color: rgba(255, 255, 255, 0.15); border-color: transparent; }
 
-.search-entry:focus { color: #ffffff; background-color: #191919; border-color: #ffffff; box-shadow: inset 0 0 0 1px #ffffff; }
+.search-entry:focus { color: #123354; background-color: white; border-color: #15a6f0; box-shadow: inset 0 0 0 1px #15a6f0; }
 
 .search-entry:focus StLabel.hint-text { color: rgba(255, 255, 255, 0.5); }
 
@@ -977,7 +977,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 #LookingGlassDialog StBoxLayout#ResultsArea { spacing: 6px; }
 
-.lg-dialog StEntry { background-color: #191919; color: #ffffff; border-color: #40454e; min-height: 22px; selection-background-color: #ffffff; selected-color: #191919; }
+.lg-dialog StEntry { background-color: white; color: #123354; border-color: #e4e8ee; min-height: 22px; selection-background-color: #15a6f0; selected-color: white; }
 
 .lg-dialog .shell-link { color: white; }
 
