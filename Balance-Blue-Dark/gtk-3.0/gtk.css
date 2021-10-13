@@ -128,7 +128,7 @@ spinbutton:not(.vertical) image.right, entry image.right { margin-left: 6px; }
 
 spinbutton.flat:not(.vertical), entry.flat:focus, entry.flat:backdrop, entry.flat:disabled, entry.flat { min-height: 0; padding: 2px; background-color: transparent; border-color: transparent; border-radius: 0; }
 
-spinbutton:focus:not(.vertical), entry:focus { color: #123354; background-color: white; box-shadow: 0 2px 4px rgba(21, 166, 240, 0.2), inset 0 0 0 2px #00bfff; }
+spinbutton:focus:not(.vertical), entry:focus { color: #ffffff; background-color: #1e222b; box-shadow: 0 2px 4px rgba(21, 166, 240, 0.2), inset 0 0 0 2px #00bfff; }
 
 spinbutton:disabled:not(.vertical), entry:disabled { color: #909090; background-color: transparent; box-shadow: none; }
 

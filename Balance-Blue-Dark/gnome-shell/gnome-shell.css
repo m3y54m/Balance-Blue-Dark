@@ -52,7 +52,7 @@ stage { font-size: 10pt; color: #ffffff; }
 /* Entries */
 StEntry { border-radius: 8px; padding: 8px; margin: 1px; border-width: 1px; color: #ffffff; border-color: #40454e; color: #ffffff; background-color: #191919; box-shadow: none; selection-background-color: #525252; selected-color: white; }
 
-StEntry:focus { color: #123354; background-color: white; box-shadow: none; border-color: #15a6f0; box-shadow: inset 0 0 0 1px #15a6f0; }
+StEntry:focus { color: #ffffff; background-color: #191919; box-shadow: none; border-color: #15a6f0; box-shadow: inset 0 0 0 1px #15a6f0; }
 
 StEntry:insensitive { color: #909090; background-color: transparent; border-color: transparent; box-shadow: none; }
 
@@ -702,7 +702,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .search-entry:hover { background-color: rgba(255, 255, 255, 0.15); border-color: transparent; }
 
-.search-entry:focus { color: #123354; background-color: white; border-color: #15a6f0; box-shadow: inset 0 0 0 1px #15a6f0; }
+.search-entry:focus { color: #ffffff; background-color: #191919; border-color: #15a6f0; box-shadow: inset 0 0 0 1px #15a6f0; }
 
 .search-entry:focus StLabel.hint-text { color: rgba(255, 255, 255, 0.5); }
 
