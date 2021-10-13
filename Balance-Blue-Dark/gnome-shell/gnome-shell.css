@@ -118,9 +118,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .popup-menu-item:rtl { padding-right: 0; padding-left: 1.75em; }
 
-.popup-menu-item:checked { background-color: #ffffff; background-gradient-direction: none; background-gradient-start: #f4f1f1; background-gradient-end: white; color: #191919; }
+.popup-menu-item:checked { background-color: #15a6f0; background-gradient-direction: horizontal; background-gradient-start: #029be9; background-gradient-end: #22c5fd; color: white; }
 
-.popup-menu-item:checked.selected { background-color: #ffffff; background-gradient-direction: none; background-gradient-start: #f4f1f1; background-gradient-end: white; color: #191919; }
+.popup-menu-item:checked.selected { background-color: #15a6f0; background-gradient-direction: horizontal; background-gradient-start: #029be9; background-gradient-end: #22c5fd; color: white; }
 
 .popup-menu-item:checked:active { background-color: #ffffff; background-gradient-direction: none; color: #191919; }
 
@@ -231,13 +231,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .calendar .calendar-nonwork-day { color: #ffffff; }
 
-.calendar .calendar-today { font-weight: bold; border: none; background-color: #ffffff; background-gradient-direction: none; background-gradient-start: #f4f1f1; background-gradient-end: white; color: #191919; box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); }
+.calendar .calendar-today { font-weight: bold; border: none; background-color: #15a6f0; background-gradient-direction: horizontal; background-gradient-start: #029be9; background-gradient-end: #22c5fd; color: white; box-shadow: 0 2px 4px rgba(34, 197, 253, 0.2); }
 
-.calendar .calendar-today:hover, .calendar .calendar-today:focus { background-color: white; background-gradient-direction: none; color: #191919; }
+.calendar .calendar-today:hover, .calendar .calendar-today:focus { background-color: #22c5fd; background-gradient-direction: none; color: white; }
 
-.calendar .calendar-today:active, .calendar .calendar-today:selected { background-color: #ffffff; background-gradient-direction: none; background-gradient-start: #f4f1f1; background-gradient-end: white; color: #191919; box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); }
+.calendar .calendar-today:active, .calendar .calendar-today:selected { background-color: #15a6f0; background-gradient-direction: horizontal; background-gradient-start: #029be9; background-gradient-end: #22c5fd; color: white; box-shadow: 0 2px 4px rgba(34, 197, 253, 0.2); }
 
-.calendar .calendar-today:active:hover, .calendar .calendar-today:active:focus, .calendar .calendar-today:selected:hover, .calendar .calendar-today:selected:focus { background-color: white; color: #191919; }
+.calendar .calendar-today:active:hover, .calendar .calendar-today:active:focus, .calendar .calendar-today:selected:hover, .calendar .calendar-today:selected:focus { background-color: #22c5fd; color: white; }
 
 .calendar .calendar-day-with-events { background-image: url("assets/calendar-event-dark.svg"); color: #ffffff; font-weight: bold; }
 
@@ -548,7 +548,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .nm-dialog-item { font-size: 10pt; border: none; padding: 12px; border-radius: 8px; spacing: 0px; }
 
-.nm-dialog-item:selected { background-color: #ffffff; background-gradient-direction: none; background-gradient-start: #f4f1f1; background-gradient-end: white; color: #191919; }
+.nm-dialog-item:selected { background-color: #15a6f0; background-gradient-direction: horizontal; background-gradient-start: #029be9; background-gradient-end: #22c5fd; color: white; }
 
 .nm-dialog-icon { icon-size: 16px; }
 
@@ -585,7 +585,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .switcher-list .item-box:outlined { background-color: rgba(255, 255, 255, 0.2); background-gradient-direction: none; }
 
-.switcher-list .item-box:selected { background-color: #ffffff; background-gradient-direction: none; background-gradient-start: #f4f1f1; background-gradient-end: white; color: #191919; }
+.switcher-list .item-box:selected { background-color: #15a6f0; background-gradient-direction: horizontal; background-gradient-start: #029be9; background-gradient-end: #22c5fd; color: white; }
 
 .switcher-list .thumbnail-box { padding: 2px; spacing: 6px; }
 
@@ -610,7 +610,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .ws-switcher-box { background: rgba(255, 255, 255, 0.075); height: 50px; background-size: 32px; border: none; border-radius: 10px; }
 
-.ws-switcher-active-up, .ws-switcher-active-down, .ws-switcher-active-left, .ws-switcher-active-right { height: 52px; background-color: #ffffff; background-gradient-direction: none; background-gradient-start: #f4f1f1; background-gradient-end: white; color: #191919; border: none; border-radius: 10px; }
+.ws-switcher-active-up, .ws-switcher-active-down, .ws-switcher-active-left, .ws-switcher-active-right { height: 52px; background-color: #15a6f0; background-gradient-direction: horizontal; background-gradient-start: #029be9; background-gradient-end: #22c5fd; color: white; border: none; border-radius: 10px; }
 
 /* Top Bar */
 #panel { background-color: rgba(25, 25, 25, 0.75); font-weight: bold; height: 2.4em; font-feature-settings: "tnum"; }
