@@ -26,7 +26,7 @@
 .gtkstyle-fallback:selected { color: white; background-color: #00bfff; }
 
 .view, iconview, .view text, iconview text, textview text { color: #363636; background-color: #ffffff; border-radius: 10px; }
-treeview.view, iconview, treeview.view text { color: #ffffff; background-color: #363636; border-radius: 10px; }
+.view:focus, treeview.view, iconview, treeview.view text { color: #ffffff; background-color: #363636; border-radius: 10px; }
 
 .view:disabled, iconview:disabled, .view text:disabled, iconview text:disabled, textview text:disabled { color: #909090; background-color: #363636; }
 
