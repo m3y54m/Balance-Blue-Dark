@@ -18,11 +18,12 @@ Features of Balance-Blue-Dark:
 
 ## Installation
 
-Clone this git repository:
+Download and extract this git repository:
 
 ```console
-git clone https://github.com/m3y54m/Balance-Blue-Dark.git
-cd Balance-Blue-Dark
+wget https://github.com/m3y54m/Balance-Blue-Dark/archive/refs/heads/master.zip
+unzip master.zip 
+cd Balance-Blue-Dark-master
 ```
 
 Copy `Balance-Blue-Dark` to `.themes` directory:
