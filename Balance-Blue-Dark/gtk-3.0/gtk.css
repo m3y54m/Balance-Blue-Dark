@@ -535,7 +535,7 @@ revealer box.view { background-color: transparent; }
 .inline-toolbar:backdrop, searchbar > revealer > box:backdrop, .location-bar:backdrop { background-color: #232730; }
 
 /*************** Header bars * */
-@keyframes header_ripple_effect { from { background-image: radial-gradient(circle farthest-corner at center, #f5f7fa 0%, transparent 0%); }
+@keyframes header_ripple_effect { from { background-image: radial-gradient(circle farthest-corner at center, #282c34 0%, transparent 0%); }
   to { background-image: radial-gradient(circle farthest-corner at center, #15a6f0 100%, transparent 0%); } }
 
 .titlebar:not(headerbar), headerbar { padding: 0 6px; min-height: 46px; border: none; border-radius: 0; background-color: #333841; /* hide the close button separator */ }
@@ -1024,27 +1024,27 @@ check:backdrop:disabled, radio:backdrop:disabled { box-shadow: none; background-
 
 check:checked, radio:checked { background-clip: border-box; background: linear-gradient(65deg, #029be9, #22c5fd); box-shadow: none; color: white; }
 
-check:checked:hover, radio:checked:hover { background: image(white); }
+check:checked:hover, radio:checked:hover { background: image(#15a0e8); }
 
-check:checked:active, radio:checked:active { background: image(white); }
+check:checked:active, radio:checked:active { background: image(#159be0); }
 
-check:checked:disabled, radio:checked:disabled { box-shadow: none; background-image: none; background-color: #909090; color: rgba(25, 25, 25, 0.7); }
+check:checked:disabled, radio:checked:disabled { box-shadow: none; background-image: none; background-color: #85cff5; color: rgba(255, 255, 255, 0.7); }
 
-check:checked:backdrop, radio:checked:backdrop { background-image: none; background-color: #bbbbbb; box-shadow: none; color: #282c34; }
+check:checked:backdrop, radio:checked:backdrop { background-image: none; background-color: #9a9a9a; box-shadow: none; color: white; }
 
-check:checked:backdrop:disabled, radio:checked:backdrop:disabled { box-shadow: none; background-image: none; background-color: #909090; color: rgba(25, 25, 25, 0.7); }
+check:checked:backdrop:disabled, radio:checked:backdrop:disabled { box-shadow: none; background-image: none; background-color: #bdbdbd; color: rgba(255, 255, 255, 0.7); }
 
 check:indeterminate, radio:indeterminate { background-clip: border-box; background: linear-gradient(65deg, #029be9, #22c5fd); box-shadow: none; color: white; }
 
-check:indeterminate:hover, radio:indeterminate:hover { background: image(white); }
+check:indeterminate:hover, radio:indeterminate:hover { background: image(#15a0e8); }
 
-check:indeterminate:active, radio:indeterminate:active { background: image(white); }
+check:indeterminate:active, radio:indeterminate:active { background: image(#159be0); }
 
-check:indeterminate:disabled, radio:indeterminate:disabled { box-shadow: none; background-image: none; background-color: #909090; color: rgba(25, 25, 25, 0.7); }
+check:indeterminate:disabled, radio:indeterminate:disabled { box-shadow: none; background-image: none; background-color: #85cff5; color: rgba(255, 255, 255, 0.7); }
 
-check:indeterminate:backdrop, radio:indeterminate:backdrop { background-image: none; background-color: #bbbbbb; box-shadow: none; color: #282c34; }
+check:indeterminate:backdrop, radio:indeterminate:backdrop { background-image: none; background-color: #9a9a9a; box-shadow: none; color: white; }
 
-check:indeterminate:backdrop:disabled, radio:indeterminate:backdrop:disabled { box-shadow: none; background-image: none; background-color: #909090; color: rgba(25, 25, 25, 0.7); }
+check:indeterminate:backdrop:disabled, radio:indeterminate:backdrop:disabled { box-shadow: none; background-image: none; background-color: #bdbdbd; color: rgba(255, 255, 255, 0.7); }
 
 check:backdrop, radio:backdrop { transition: 150ms ease-out; }
 
@@ -1076,9 +1076,11 @@ radio:checked:not(:backdrop), radio:indeterminate:not(:backdrop), check:checked:
 
 menu menuitem radio:checked:not(:backdrop), menu menuitem radio:indeterminate:not(:backdrop), menu menuitem check:checked:not(:backdrop), menu menuitem check:indeterminate:not(:backdrop) { transition: none; }
 
-treeview.view check:selected:focus, treeview.view check:selected, treeview.view radio:selected:focus, treeview.view radio:selected { color: #282c34; border: 1px solid #ececec; }
+treeview.view check:focus, treeview.view check { border-radius: 4px; }
 
-treeview.view check:selected:focus:backdrop, treeview.view check:selected:backdrop, treeview.view radio:selected:focus:backdrop, treeview.view radio:selected:backdrop { border-color: #c2c2c2; }
+treeview.view check:selected:focus, treeview.view check:selected, treeview.view radio:selected:focus, treeview.view radio:selected { color: white; border: 1px solid #139ade; }
+
+treeview.view check:selected:focus:backdrop, treeview.view check:selected:backdrop, treeview.view radio:selected:focus:backdrop, treeview.view radio:selected:backdrop { border-color: #929292; }
 
 /************ GtkScale * */
 levelbar block.empty, progressbar trough, scale fill, scale trough { border: none; border-radius: 8px; background-color: #40454e; }
@@ -1121,7 +1123,7 @@ scale fill:backdrop, scale fill { background-color: #40454e; }
 
 scale fill:disabled:backdrop, scale fill:disabled { border-color: transparent; background-color: transparent; }
 
-scale slider { border: 2px solid #22c5fd; border-radius: 100%; background-color: #f5f7fa; transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-property: background, border, box-shadow; }
+scale slider { border: 2px solid #22c5fd; border-radius: 100%; background-color: #282c34; transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-property: background, border, box-shadow; }
 
 row scale slider, popover scale slider { background-color: #282c34; }
 

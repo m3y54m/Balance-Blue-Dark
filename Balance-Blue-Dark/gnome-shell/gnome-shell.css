@@ -82,7 +82,7 @@ StEntry StLabel.hint-text { margin-left: 2px; color: rgba(255, 255, 255, 0.5); }
 /* Slider */
 .slider { height: 15px; -barlevel-height: 3px; -barlevel-background-color: rgba(255, 255, 255, 0.1); -barlevel-border-width: 0; -barlevel-border-color: transparent; -barlevel-active-background-color: #15a6f0; -barlevel-active-border-color: transparent; -barlevel-overdrive-color: #fa4444; -barlevel-overdrive-border-color: transparent; -barlevel-overdrive-separator-width: 2px; -slider-handle-radius: 7.5px; -slider-handle-border-width: 2px; -slider-handle-border-color: #15a6f0; color: #282c34; }
 
-.slider:hover { color: white; }
+.slider:hover { color: #282c34; }
 
 .slider:active { color: #15a6f0; }
 
