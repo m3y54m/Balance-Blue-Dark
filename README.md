@@ -2,13 +2,15 @@
 
 Balance-Blue-Dark theme is a mixture of all good features of [Zorin OS](https://zorin.com/os/) official themes with some minor enhancements.
 
-Original Zorin OS themes source code is found here:
+Original Zorin OS themes source is found here:
 
 https://github.com/ZorinOS/zorin-desktop-themes
 
+https://github.com/ZorinOS/zorin-icon-themes
+
 Features of Balance-Blue-Dark:
 
-- Icons are borrowed from ZorinBlue-Light
+- Icons are borrowed from ZorinBlue-Light and ZorinGrey-Dark
 - GTK 3.0 CSS styling is borrowed from ZorinGrey-Dark theme but I made colors a bit bluish and brighter than the original theme.
 - The GNOME shell theme is borrowed from ZorinGrey-Dark theme but I made colors a bit bluish and brighter than the original theme.
 - The beautiful blue gradient color used in ZorinBlue-Light is added to this theme.
@@ -30,4 +32,11 @@ mkdir -p ~/.themes
 cp -r Balance-Blue-Dark ~/.themes
 ```
 
-Now you can activate `Balance-Blue-Dark` theme using `Zorin Appearance` or `GNOME Tweaks`.
+Copy Balance-Blue-Dark-Icons to `.icons` directory:
+
+```console
+mkdir -p ~/.icons
+cp -r Balance-Blue-Dark-Icons ~/.icons
+```
+
+Now you can activate `Balance-Blue-Dark` theme and `Balance-Blue-Dark-Icons` icons theme using `Zorin Appearance` or `GNOME Tweaks`.
