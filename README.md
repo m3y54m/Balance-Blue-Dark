@@ -1,8 +1,8 @@
 # Balance-Blue-Dark GNOME/GTK3 Theme
 
-Balance-Blue-Dark theme is a mixture of all good features of [Zorin OS](https://zorin.com/os/) official themes with some minor enhancements.
+Balance-Blue-Dark theme is a combination of the best features of the official [Zorin OS](https://zorin.com/os/) themes, along with some minor modifications. 
 
-Original Zorin OS themes source is found here:
+The source code for the original Zorin OS themes can be found at this links:
 
 https://github.com/ZorinOS/zorin-desktop-themes
 
